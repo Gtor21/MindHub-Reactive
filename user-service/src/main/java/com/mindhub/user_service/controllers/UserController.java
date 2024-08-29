@@ -1,7 +1,7 @@
 package com.mindhub.user_service.controllers;
 
 import com.mindhub.user_service.exeptions.UserNotFoundException;
-import com.mindhub.user_service.models.Dto.UserDTO;
+import com.mindhub.user_service.dtos.UserDTO;
 import com.mindhub.user_service.models.UserEntity;
 import com.mindhub.user_service.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

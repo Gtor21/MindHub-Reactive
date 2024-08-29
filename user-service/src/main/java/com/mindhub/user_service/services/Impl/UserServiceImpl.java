@@ -1,7 +1,7 @@
 package com.mindhub.user_service.services.Impl;
 
 import com.mindhub.user_service.mappers.UserMapper;
-import com.mindhub.user_service.models.Dto.UserDTO;
+import com.mindhub.user_service.dtos.UserDTO;
 import com.mindhub.user_service.models.UserEntity;
 import com.mindhub.user_service.repositories.UserRepository;
 import com.mindhub.user_service.services.UserService;

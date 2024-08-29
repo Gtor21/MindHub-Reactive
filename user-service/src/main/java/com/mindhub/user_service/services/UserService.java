@@ -1,6 +1,6 @@
 package com.mindhub.user_service.services;
 
-import com.mindhub.user_service.models.Dto.UserDTO;
+import com.mindhub.user_service.dtos.UserDTO;
 import com.mindhub.user_service.models.UserEntity;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
