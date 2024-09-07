@@ -1,10 +1,22 @@
 package com.mindhub.user_service.dtos;
 
+import com.mindhub.user_service.models.UserEntity;
+
 public class UserDTO {
     private Long id;
     private String name;
     private String email;
     private String password;
+
+    public UserDTO() {
+    }
+
+    public UserDTO(UserEntity entity) {
+        id = entity.getId();
+        name = entity.getName();
+        email = entity.getEmail();
+        password = entity.getPassword();
+    }
 
     // Getters and setters
     public Long getId() {

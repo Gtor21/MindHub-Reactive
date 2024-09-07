@@ -22,7 +22,7 @@ public class UserServiceApplication {
 	@Bean
 	public CommandLineRunner initData(UserRepository userRepository){
 		return args -> {
-			UserEntity user = new UserEntity("Gabriel","gabrielturizo13@gmail.com", passwordEncoder.encode("sdasda"));
+			UserEntity user = new UserEntity("Gabriel","gabrielturizo13@gmail.com", passwordEncoder.encode("1234"));
 			userRepository.save(user).subscribe();
 		};
 	}

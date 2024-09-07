@@ -55,4 +55,11 @@ public class UserServiceImpl implements UserService {
         return userRepository.findById(id)
                 .flatMap(userRepository::delete);
     }
+
+    @Override
+    public Mono<UserEntity> getUserByEmail(String email) {
+        return userRepository.findByEmail(email);
+    }
+
+
 }
